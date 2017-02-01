@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order a Unicorn</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header>
+        <h1>Unicorn Order Form</h1>
+        <!--<img align="right" src="img/unicorn.jpg" alt="cute unicorn"/>-->
+    </header>
+
+<form action="https://formspree.io/akbadger@gmail.com"
+      method="POST">
+<input type="hidden" name="product" value="Unicorn"/>
+
+<section class="card">
+<label for="unicorn-size">Unicorn Size</label><br/>
+        <select id="unicorn-size" name="unicorn-size">
+            <option value="tiny">Tiny</option>
+            <option value="life-size">Life-size</option>
+            <option value="gargantuan">Gargantuan</option>
+        </select><br/><br/>
+<label for="number-of-unicorns">Number of Unicorns</label>
+<input type="text" id="number-of-unicorns" name="number-of-unicorns" placeholder="Example: 275" /><br/>
+
+<p>Where can we send your unicorn(s)?</p>
+<label for="firstName">First Name</label><br/>
+<input type="text" id=firstName name="firstName"/><br/>
+
+<label for="lastName">Last Name</label><br/>
+<input type="text" id=lastName name="lastName"/><br/>
+
+<label for="email">Email</label><br/>
+<input type="text" id=email name="email"/><br/>
+
+<label for="phoneNumber">Phone Number</label><br/>
+<input type="text" id=phoneNumber name="phoneNumber"/><br/>
+
+<label for="streetAddress">Street Address</label><br/>
+<input type="text" id=streetAddress name="streetAddress"/><br/>
+
+<label for="city">City</label><br/>
+<input type="text" id=city name="city"/><br/><br/>
+
+<label for="state">State</label><br/>
+        <select id="state" name="state">
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="NY">New York</option>
+            <option value="OR">Oregon</option>
+            <option value="VT">Vermont</option>
+            <option value="WA">Washington</option>
+        </select><br/><br/>
+
+<label for="zipCode">Zip Code</label><br/>
+<input type="text" id=zipCode name="zipCode"/><br/><br/>
+
+<label for="deliveryInstructions">Delivery Instructions</label><br/>
+        <textarea name="deliveryInstructions" id="deliveryInstructions"> </textarea><br/><br/>
+
+<input type="checkbox" id="emailOptIn" name="emailOptIn" value="yes" />
+        <label for="emailOptIn">Check this box to receive weekly unicorn email updates!</label><br/><br/>
+
+<button type="submit">Submit</button>
+</section>
+
+</form>
+
+
+</body>
+</html>
