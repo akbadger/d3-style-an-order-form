@@ -7,6 +7,7 @@ img {
 body {
     background: linear-gradient(lightpink, #de63a4);
     padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
@@ -83,3 +84,16 @@ h1 {
     background-color: #f1b2dc;
 }
 
+.email-conf {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.expanded-background {
+    padding-bottom: 600px;
+}
+
+#thanks-title {
+    margin-top: 80px;
+}
