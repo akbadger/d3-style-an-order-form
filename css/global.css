@@ -94,6 +94,8 @@ h1 {
     padding-bottom: 600px;
 }
 
-#thanks-title {
-    margin-top: 80px;
+#thanks-pic {
+    width: 500px;
+    height: auto;
+    display: block;
 }
